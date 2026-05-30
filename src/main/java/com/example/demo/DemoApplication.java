@@ -14,8 +14,9 @@ public class DemoApplication {
 //		s2.age=50;
 //		System.out.print(s1.age+" "+s2.age);
 
-       Student s=context.getBean(Student.class);
-       s.study();
-       s.writeexam();
+        Student s1=context.getBean(Student.class);
+        //s1.writeExam();
+        s1.study();
+        s1.writeExam();
     }
 }
